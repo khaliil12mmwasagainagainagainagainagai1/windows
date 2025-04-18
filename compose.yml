@@ -3,8 +3,8 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/win-7-home-danish/Win7_HomePrem_SP1_Danish_x32.iso"
-      MANUAL: "Y"
+      VERSION: "10"
+      
     devices:
       - /dev/kvm
       - /dev/net/tun
