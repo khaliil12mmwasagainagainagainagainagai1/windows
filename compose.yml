@@ -3,8 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10"
-      MANAUAL: "Y"
+      VERSION: "https://archive.org/download/GoldWindowsXPSP32016DriversV2.0ByComputerWormsTeam/Gold%20Windows%20XP%20SP3%202016%20%2B%20Drivers%20v2.0%20By%20Computer%20Worms%20Team.rar/Gold%20Windows%20XP%20SP3%202016%20%2B%20Drivers%20v2.0%20By%20Computer%20Worms%20Team%2FGold%20Windows%20XP%20SP3%202016%20%2B%20Drivers%20v2.0.iso"
     devices:
       - /dev/kvm
       - /dev/net/tun
